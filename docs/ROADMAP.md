@@ -2,12 +2,12 @@
 
 This is a plan, not a claim of completed work. Dates and engine choices will be updated as surveys and reviews land.
 
-## Phase 0 — Scaffold and first literature survey (current)
+## Phase 0 — Scaffold and first literature survey (complete)
 
 - Create the public repository with an honest scope, MIT license, standing rules, and this roadmap.
 - Run one Hermes `we-research` literature and engine survey (job key `ag-research-01`) on free compute.
 - Fact-check every citation in that draft against opened sources.
-- Publish the checked findings as `docs/RESEARCH-01.md` on branch `research/initial-survey` and open a pull request. Do not merge until James approves.
+- Publish the checked findings as `docs/RESEARCH-01.md`. Merged as pull request #1 on 22 November 2026 at 5:02 PM PST (America/Los_Angeles), merge commit `0a07b7ec0697c8e8fe38fdf54e92bc858d32cb3d`.
 - Recommend two or three free open-source engines and a first model-only test for each. Do not install them until James says so.
 
 ## Phase 1 — Choose and install engines (needs approval)
@@ -16,6 +16,8 @@ This is a plan, not a claim of completed work. Dates and engine choices will be 
 - Record versions, licenses, install footprints, and a short reproducibility note for each engine.
 
 ## Phase 2 — First model-only studies
+
+`docs/RESEARCH-02.md` is a literature register for item 1 (documented EHD / ionic-wind). It is research docs only. No engine was installed or run for that unit. Modeling still needs an approved engine (Phase 1) and is not started here.
 
 Likely first studies, in order of testability rather than sensational claims:
 
