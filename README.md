@@ -31,6 +31,8 @@ Work is model-only and uses free compute only. No paid compute is provisioned au
 
 Ideas, corrections, references, models and code may be submitted as an issue or a pull request. Submission is not acceptance. After this scaffold, every change goes through a branch and a pull request that James reviews. Do not invent citations. Do not use Sci-Hub, Library Genesis, or similar sites. Installing any simulation engine needs a separate OK.
 
+Models writing code should also follow the adopted coding process in [RULES.md](RULES.md) and [docs/superpowers-adopted/](docs/superpowers-adopted/). The official review set, frozen pass rules, and James's merge approval still come first.
+
 ## License
 
 MIT — see `LICENSE`.
