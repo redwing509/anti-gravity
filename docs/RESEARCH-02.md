@@ -231,7 +231,7 @@ result:
 On Talley, Tajmar (opened TU Dresden PDF) writes:
 
 > "Two decades later, Talley studied Brown’s electrode configurations in
-> vacuum chambers up to 10-6 Torr in great detail."
+> vacuum chambers up to 10-6 Torr in great detail19,20."
 > He found "no thrust in the case of a static DC potential applied to the
 > electrodes. However he noticed an anomalous force during electrical
 > breakdowns when a current was flowing."
@@ -445,7 +445,8 @@ from the official German chair page opened this pass:
 > sie Bewegungsenergie auf neutrale Luftmoleküle übertragen. Dieser
 > Impulstransfer erzeugt eine Schubkraft, den sogenannten Ionenwind,
 > der für Antriebs- oder Strömungssteuerungszwecke ohne bewegliche
-> Teile genutzt werden kann."
+> Teile genutzt werden kann – eine effiziente und geräuschlose
+> Technologie."
 
 English translation:
 
@@ -457,7 +458,7 @@ English translation:
 > polarity, thereby transferring kinetic energy to neutral air
 > molecules. This momentum transfer produces a thrust force, the
 > so-called ionic wind, which can be used for propulsion or flow-control
-> purposes without moving parts."
+> purposes without moving parts — an efficient and silent technology."
 
 The official English version of the same TU Dresden page says
 "transferring momentum to neutral air molecules" where the German page
