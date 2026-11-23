@@ -33,9 +33,8 @@ Official or institutional texts opened and used below:
   Phenomena," author / institute PDF hosted by TU Dresden,
   <https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/Biefeld-Brown-Effect-AIAA-Journal-Revised.pdf?lang=en>
   (HTTP 200 PDF, opened). Cabanas et al. 2022 cite the published form as
-  AIAA Journal, Vol. 42, 2004, pp. 315–318. A guessed Unpaywall / Crossref
-  lookup on DOI 10.2514/1.16104 returned 404 this pass, so the bibliographic
-  DOI is not claimed here.
+  AIAA Journal, Vol. 42, 2004, pp. 315–318. A bibliographic DOI was not
+  confirmed this pass and is not claimed here.
 - Francis X. Canning, Cory Melcher, and Edwin Winet, *Asymmetrical
   Capacitors for Propulsion*, NASA/CR—2004-213312, October 2004,
   official NASA NTRS PDF
@@ -70,10 +69,10 @@ Official or institutional texts opened and used below:
   *Nature* 563, 532–535 (2018), PubMed abstract only,
   <https://pubmed.ncbi.nlm.nih.gov/30464270/> (PMID 30464270; official
   abstract opened). The Nature full text remains paywalled. No
-  legitimate author preprint was opened this pass. The PubMed year
-  field lists 2019; the journal issue is Nature vol. 563, and the
-  official French ANR project page below dates the publication to
-  November 2018.
+  legitimate author preprint was opened this pass. The PubMed
+  PubDate is 2018 Nov; the electronic article date is 21 November
+  2018. The official French ANR project page below also dates the
+  publication to November 2018.
 - Official French project summary, Agence Nationale de la Recherche,
   "Nouveaux concepts de propulsion tout électrique par vent ionique"
   (PROPULS-ION, ANR-20-ASTC-0029),
@@ -175,6 +174,11 @@ He compares that bound to a calculated corona-wind thrust of 163 mN:
 > must be at least 5 orders of magnitude below the electric wind
 > effects."
 
+The opened numbers in that same passage are 163 mN and 10 µN. Their
+ratio is 1.63 × 10⁴, or about 4.2 orders of magnitude, not 5. The
+quotations are kept as written. The "5 orders" wording is the paper's
+own coarser statement, not a second measurement.
+
 The abstract states the propulsion implication and the interpretation
 (the typographical error "ration" is in the opened PDF and is left as
 written):
@@ -232,9 +236,12 @@ On Talley, Tajmar (opened TU Dresden PDF) writes:
 
 > "Two decades later, Talley studied Brown’s electrode configurations in
 > vacuum chambers up to 10-6 Torr in great detail19,20."
-> He found "no thrust in the case of a static DC potential applied to the
-> electrodes. However he noticed an anomalous force during electrical
-> breakdowns when a current was flowing."
+
+The "10-6" in that sentence is the extraction of a superscript in the
+opened PDF (10⁻⁶ Torr). Tajmar then writes that Talley found "no thrust
+in the case of a static DC potential applied to the electrodes. However
+he noticed an anomalous force during electrical breakdowns when a
+current was flowing."
 
 Canning, Melcher, and Winet quote Talley's own wording in the opened
 NASA contractor report (the official DTIC full PDF was not opened this
@@ -279,19 +286,26 @@ physical basis for the Biefeld-Brown effect is not understood." They
 asked for vacuum tests and a plasma / charge-transport model. They did
 not claim a gravitational mechanism.
 
-Later opened work answers both requests. The vacuum tests above are
-nulls for a residual force. Wilson's balance and thrust-plate
-comparison shows Te = Tiw to the accuracy of that experiment. Tajmar's
-sealed box removes the wind and removes the net force. Cabanas et al.
-treat the effect as ionic wind and measure it as such.
+Later opened work answers the vacuum request and gives measurements
+that a charge-transport or drift model would have to reproduce. The
+vacuum tests above are nulls for a residual force. Wilson's balance and
+thrust-plate comparison shows Te = Tiw to the accuracy of that
+experiment. Tajmar's sealed box removes the wind and removes the net
+force. Cabanas et al. treat the effect as ionic wind and measure it as
+such. None of those later official texts says that it is a reply to
+Bahder and Fazi.
 
 The 2003 "three orders too small" bound was a simple ballistic-ion-wind
-estimate. In the same paper, the ionic-drift estimate already gave the
-right order of magnitude. The later official measurements identify that
-ion-neutral drift / collision transfer — ordinary EHD — as the force
-that is actually measured in air. This register therefore treats the
-disagreement as resolved in favor of the later quantitative tests, not
-as an open anomaly.
+estimate: in Bahder and Fazi's wording, "ionic wind" there is the
+momentum of the ions themselves. In the same paper, the ionic-drift
+estimate already gave the right order of magnitude. The later official
+measurements use "ionic wind" for the air flow driven by ion drift and
+collisions — ordinary EHD — and identify that air momentum as the force
+that is actually measured in air. Those are two uses of the same words,
+not two measurements of one ion-only force. This register's own
+conclusion is that the later quantitative tests account for the
+atmospheric force, and that the 2003 ballistic bound is not a remaining
+anomaly.
 
 ### Documented atmospheric geometries and numbers
 
@@ -316,7 +330,11 @@ balance accuracy 0.01 g.
   measurement of 4.3 g/W overall, and writes that EHD "is almost 10
   times more efficient, in terms of energy consumption, than
   conventional electric propulsion" in that comparison. Those g/W
-  figures are gram-force per watt as used in that paper.
+  figures are gram-force per watt as used in that paper. In the same
+  discussion the authors also write: "Its application to atmospheric
+  flight is still far from being an alternative, although in this
+  study it has been analyzed, to the best of the authors’ knowledge, in
+  a different way to that presented to date."
 
 **Wilson, Perkins, and Thompson, NASA/TM—2009-215822.** Hexagonal
 lifter geometry as given above (9 g, 24.6 kV, 1.4 mA, 32 mm gap). A
@@ -335,11 +353,18 @@ for aircraft propulsion, the report abstract says:
 Cabanas's "30 g/W" (gram-force per watt) converts, if 1 gram-force is
 taken as 9.81 mN, to about 294 N/kW. That is higher than Wilson's
 "values approaching 50 N/kW." The two official figures are left in
-their own units. They need not be forced into agreement here: Wilson
-explicitly ties higher N/kW to lower thrust and higher voltage, and
-Cabanas's 29.4 g/W point is a low-current table entry, not a high-thrust
-operating point. A model, when one is approved, should compare to each
-source in that source's geometry and units.
+their own units and are not forced into agreement here. A separate
+gap sits inside Cabanas et al. themselves. In the same paragraph that
+reports 3.2 g and a 400 µA current for the 400 mm single thruster, a
+naive 30 kV × 400 µA = 12 W and 3.2 g / 12 W is about 0.27 g/W, two
+orders of magnitude below the 29.4 g/W Table 2 entry at 21 kV and
+40 mm. The paper does not, in the opened text, give a current for that
+specific Table 2 cell, so this 0.27 g/W figure is this register's
+arithmetic from the 3.2 g / 400 µA / 30 kV numbers, not a number
+printed as such. Before any later model is checked against 29.4 g/W or
+30 g/W, the Table 2 units and the current that belongs to that cell
+should be confirmed. A model, when one is approved, should compare to
+each source in that source's geometry and units.
 
 **Xu et al., Nature, PubMed abstract only.** Official abstract, not the
 paywalled full text:
@@ -373,8 +398,13 @@ Electrical Engineering Department, University of Oviedo, 33003 Oviedo,
 Spain, funded in part (per the institutional record) by the Government
 of the Principality of Asturias and the EU. The paper itself is in
 English; the distinctive findings are in section 1. A Spanish-language
-official full text of a related Colombian prototype report was not
-opened (Universidad Nacional de Colombia repository errors, above).
+search was run. No Spanish-language official institutional full text
+from Spain was opened this pass.
+
+A Spanish-language official full text of a Colombian prototype report
+("PRUEBAS CON UN PROTOTIPO DE LEVITADOR ELECTRODINÁMICO," Universidad
+Nacional de Colombia) was also not opened (repository errors, above).
+That is a Spanish-language gap, not a result from Spain.
 
 ### France
 
@@ -427,9 +457,10 @@ treated as a Biefeld-Brown result.
 
 ### Germany / German-language institutional record
 
-Tajmar's opened paper is in English (ARC Seibersdorf, with a TU Wien
-lecturer affiliation on the PDF). TU Dresden hosts that official author
-PDF.
+Tajmar's opened paper is in English (ARC Seibersdorf, Austria, with a
+TU Wien lecturer affiliation on the PDF). TU Dresden hosts that official
+author PDF. No separate Austrian official vacuum study was opened
+beyond that English paper.
 
 A later official German-language record at TU Dresden describes
 atmospheric ion-wind thrusters for high-altitude platforms (Horizon
@@ -519,9 +550,9 @@ are not model results, and they do not authorize an engine install.
   URLs failed. Retry only official university or thesis-repository
   copies.
 - Chinese-language official literature: not opened this pass.
-- Published Tajmar AIAA Journal DOI: not confirmed this pass (guessed
-  DOI 404). The TU Dresden author PDF and the Cabanas bibliographic
-  citation (AIAA J. 42, 315–318, 2004) are the opened record.
+- Published Tajmar AIAA Journal DOI: not confirmed this pass. The TU
+  Dresden author PDF and the Cabanas bibliographic citation (AIAA J. 42,
+  315–318, 2004) are the opened record.
 - No engine comparison was run, by design.
 
 ## 5. Relation to the roadmap
