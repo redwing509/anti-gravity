@@ -1,11 +1,13 @@
 # RESEARCH-01 — Initial literature and engines survey (checked)
 
 Date: 17 November 2026 (America/Los_Angeles).
-Job: Hermes `we-research` / OVH DeepSeek-V4.1-Flash-1017, key `ag-research-01`,
-mail job `20261117-172544-anti-gravity-initial-literature-and-engi`.
+Job: Hermes `we-research` / OVH DeepSeek-V4.1-Flash-1017, job key label
+`ag-research-01`, mail job
+`20261117-172544-anti-gravity-initial-literature-and-engi`.
 Started 5:25 PM PST, ended 6:06 PM PST, about 40 minutes, exit 0.
 No engine was installed. This write-up is a fact-checked summary of that draft,
-not a claim of experimental validation and not a merge to `main`.
+not a claim of experimental validation. Merging this document does not promote
+any model result; see the promotion rule in section 3.
 
 ## DeepSeek quality verdict
 
@@ -19,16 +21,17 @@ returned by a separate fetch).
 - Clear or unresolved quote problems: 1 (the Graham 2008 ScienceDirect abstract
   wording). That is about a 2% quote-error rate, well under a 20% "poor quality"
   bar.
-- One bibliographic error: S8 is cited as Physica C 468:552–556 (2008). Crossref
-  and ADS give volume 468, pages 383–387, same DOI, title, authors and year.
+- One bibliographic error: Graham et al. 2008 is cited as Physica C
+  468:552–556. Crossref and ADS give volume 468, pages 383–387, same DOI,
+  title, authors and year.
 - One process slip: Pass 2 cites https://fenicsproject.org/ for a NumFOCUS line
   that was not in the Pass 1 source list. The DOLFINx license and repository
-  quoted from GitHub (S23) still check out.
+  quoted from GitHub still check out.
 - Honest gaps kept: the 2003 Hathaway replication was not opened (HTTP errors);
   some PDF middle sections were unread; install sizes in megabytes were mostly
   `NOT FOUND`.
 
-S8 detail: I could not open the ScienceDirect abstract (HTTP 403). I did open a
+Graham 2008 detail: I could not open the ScienceDirect abstract (HTTP 403). I did open a
 legitimate University of Canterbury author PDF,
 https://spcs.canterbury.ac.nz/~physrin/papers/SuperFrameDragging2007.pdf
 (preprint dated 6 July 2007). That abstract says "No frame dragging effect was
@@ -58,11 +61,11 @@ This is a real force in air, not a gravitational anomaly.
   (Xu et al., Nature 2018; PubMed abstract
   [PMID 30464270](https://pubmed.ncbi.nlm.nih.gov/30464270/), also DOI
   10.1038/s41586-018-0707-9. Abstract only; the Nature page was paywalled.)
-- The 2003 Army Research Laboratory report records the force but rejects a
-  simple ion-wind upper bound: "A simple upper limit on the ion wind force
-  shows that the ion wind effect is at least three orders of magnitude too
-  small." It asks for a plasma / charge-transport model rather than claiming
-  gravity. ([Bahder and Fazi, arXiv physics/0211001](https://arxiv.org/pdf/physics/0211001).)
+- The 2003 Army Research Laboratory report records the force but uses a
+  simple upper bound to rule out ion wind as the cause: "A simple upper limit
+  on the ion wind force shows that the ion wind effect is at least three
+  orders of magnitude too small." It asks for a plasma / charge-transport
+  model rather than claiming gravity. ([Bahder and Fazi, arXiv physics/0211001](https://arxiv.org/pdf/physics/0211001).)
   The draft correctly leaves the 2003 vs 2022 magnitude disagreement open.
 
 ### Podkletnov rotating superconductor
@@ -75,12 +78,12 @@ became considerably higher and reached 1.9-2.1% at maximum."
 A 2022 open-access review, quoting later work, says Hathaway, Cleveland and Bao
 (2003) found "No weight modifications or gravity-like forces were detected down
 to the 0.001% level," and that Woods et al. (2001) reported an unsuccessful
-attempt, "even though his results have been, until now, neither confirmed nor
-disproved."
+attempt, while noting of Podkletnov that, "even though his results have been,
+until now, neither confirmed nor disproved."
 ([Gallerati, Modanese and Ummarino, Front. Phys. 10:941858](https://www.frontiersin.org/articles/10.3389/fphy.2022.941858/full),
 DOI 10.3389/fphy.2022.941858.) Those replication numbers are secondary: the 2003
-Physica C paper itself was not opened. That is experimental-access difficulty,
-not positive evidence for a gravity shield.
+Physica C paper itself was not opened. That is a source-access gap, not
+positive evidence for a gravity shield.
 
 ### Woodward Mach-effect thruster
 
@@ -118,8 +121,8 @@ provides strong limits to all proposed theories and rules out previous test
 results by at least two orders of magnitude." The classical benchmark they use
 is "F/P = 1/c = 3.3 nN/W."
 ([CEAS Space Journal 14:31–44](https://link.springer.com/article/10.1007/s12567-021-00385-1),
-DOI 10.1007/s12567-021-00385-1, published 27 July 2021, open access. Checked on
-the official Springer page.)
+DOI 10.1007/s12567-021-00385-1, volume dated 2022, online 27 July 2021, open
+access. Checked on the official Springer page.)
 
 ### Tajmar gravitomagnetic / rotating-superconductor signals
 
@@ -129,7 +132,8 @@ seen on the sensors although they are mechanically de-coupled."
 ([arXiv:0707.3806v9](https://arxiv.org/pdf/0707.3806v9).)
 
 The same group's later test is a null: "No such anomalies were found within
-three times the noise level of our setup (± 5 × 10 − 8 rad s − 1)."
+three times the noise level of our setup (±5 × 10⁻⁸ rad s⁻¹, formatting
+normalized)."
 ([Tajmar, Supercond. Sci. Technol. 24:125011, 2011](https://doi.org/10.1088/0953-2048/24/12/125011),
 abstract only; checked on the IOP page.)
 
@@ -137,7 +141,8 @@ The 2022 review adds that in 2011 "Tajmar et al. [68] re-interpreted their
 results, attributing the anomalous effects to some kind of acoustic noise,"
 after new equipment "measured gyroscopes signals about 2 orders of magnitude
 lower compared to earlier results," and that Graham et al. 2008 were "within
-1σ from a null result." (S6, as above. The draft wrote "sigma" for "σ".)
+1σ from a null result." (Frontiers review above. The draft wrote "sigma" for
+"σ".)
 
 The Graham et al. paper is real (DOI 10.1016/j.physc.2007.11.011, Physica C
 468:383–387, 2008). See the quality verdict for the unverified "22 times" /
@@ -148,7 +153,9 @@ below the prediction they were testing.
 
 - Frame dragging is a standard GR effect and is tiny: "it required the analysis
   of 11 years of LAGEOS satellite orbit data to confirm Einstein's prediction
-  within ±10%" (S13, checked).
+  within ±10%" (Tajmar et al.,
+  [arXiv:0707.3806v9](https://arxiv.org/pdf/0707.3806v9), citing Ciufolini and
+  Pavlis 2004).
 - Warp-like metrics are GR solutions that need exotic matter: "By a purely
   local expansion of spacetime behind the spaceship and an opposite contraction
   in front of it, motion faster than the speed of light as seen by observers
@@ -205,6 +212,9 @@ install footprints were `NOT FOUND` on the opened pages.
   2.1) license in 2008. Since 2012 the ElmerSolver library has been published
   under LGPL license (GNU Lesser General Public License, v. 2.0)."
   https://elmerfem.org/blog/license
+  Those version numbers are as printed on the official license page and in
+  `license_texts/ElmerLicensePolicy.md`. The license files in the official
+  repository are `GPL-2.txt` and `LGPL-2.1.txt`.
   Source: https://github.com/ElmerCSC/elmerfem
 - Install footprint: official license page states the main library is
   "libelmersolver, ~250,000 lines of Fortran code." Package size and RAM were
@@ -247,8 +257,11 @@ https://github.com/GRTLCollaboration/GRChombo).
 ## 3. Proposed model-only first study
 
 1. Write the falsifier for each claim before any run: EmDrive must beat
-   `F/P = 1/c = 3.3 nN/W`; MET must beat a ~10 nN balance floor; amplified
-   frame dragging must beat the classical LAGEOS-scale effect.
+   `F/P = 1/c = 3.3 nN/W`; MET must beat the Dresden artefact envelope
+   (resolution under 10 nN, peaks ~100 nN, drift up to ~500 nN), not the
+   resolution figure alone; amplified frame dragging must beat the classical
+   prediction for the chosen rotor and sensor geometry, not the LAGEOS-scale
+   Earth result.
 2. Meep cavity baseline (section 2, engine 1).
 3. Elmer electrostatic / thermal artefact model (section 2, engine 2).
 4. pyTDGL sheet-current model only if a published target formula is later
@@ -263,11 +276,5 @@ engines still needs James's separate OK.
 
 ## 4. Operational notes
 
-Raw Hermes material (prompt, draft, RESULT, job metadata and logs) stays in
-the private archive at `vps3:/srv/research/anti-gravity/` (mode 700), not in
-this public repository. The draft could not be written to the intended workdir
-on mail because that path is outside the research worker's writable binds; it
-was recovered from the job folder. Mail's `hjob` was missing the companion
-`hjob_remote.py` needed for box-to-mail submit after a recent `hjob` update;
-only that missing module was copied, the worker was not restarted, and the
-fan-research lock was not touched.
+Raw Hermes material (prompt, draft, RESULT, job metadata and logs) is archived
+privately and is not in this public repository.
