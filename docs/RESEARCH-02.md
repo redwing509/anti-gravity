@@ -238,7 +238,8 @@ On Talley, Tajmar (opened TU Dresden PDF) writes:
 > vacuum chambers up to 10-6 Torr in great detail19,20."
 
 The "10-6" in that sentence is the extraction of a superscript in the
-opened PDF (10⁻⁶ Torr). Tajmar then writes that Talley found "no thrust
+opened PDF (10⁻⁶ Torr). The "19,20" marks after "detail" are footnote
+markers in the same PDF. Tajmar then writes that Talley found "no thrust
 in the case of a static DC potential applied to the electrodes. However
 he noticed an anomalous force during electrical breakdowns when a
 current was flowing."
@@ -296,7 +297,7 @@ such. None of those later official texts says that it is a reply to
 Bahder and Fazi.
 
 The 2003 "three orders too small" bound was a simple ballistic-ion-wind
-estimate: in Bahder and Fazi's wording, "ionic wind" there is the
+estimate: in Bahder and Fazi's ballistic estimate, "ionic wind" is the
 momentum of the ions themselves. In the same paper, the ionic-drift
 estimate already gave the right order of magnitude. The later official
 measurements use "ionic wind" for the air flow driven by ion drift and
@@ -356,9 +357,10 @@ taken as 9.81 mN, to about 294 N/kW. That is higher than Wilson's
 their own units and are not forced into agreement here. A separate
 gap sits inside Cabanas et al. themselves. In the same paragraph that
 reports 3.2 g and a 400 µA current for the 400 mm single thruster, a
-naive 30 kV × 400 µA = 12 W and 3.2 g / 12 W is about 0.27 g/W, two
-orders of magnitude below the 29.4 g/W Table 2 entry at 21 kV and
-40 mm. The paper does not, in the opened text, give a current for that
+naive estimate gives 30 kV × 400 µA = 12 W, and 3.2 g / 12 W is about
+0.27 g/W, two orders of magnitude below the 29.4 g/W Table 2 entry at
+21 kV and 40 mm, and also well below the same paper's 4.3 g/W
+motor-propeller comparison. The paper does not, in the opened text, give a current for that
 specific Table 2 cell, so this 0.27 g/W figure is this register's
 arithmetic from the 3.2 g / 400 µA / 30 kV numbers, not a number
 printed as such. Before any later model is checked against 29.4 g/W or
@@ -455,7 +457,7 @@ claim. French ionic-liquid electrospray satellite work (for example
 ION-X / CNRS pages) is a different, propellant-based device and is not
 treated as a Biefeld-Brown result.
 
-### Germany / German-language institutional record
+### Germany / Austria / German-language institutional record
 
 Tajmar's opened paper is in English (ARC Seibersdorf, Austria, with a
 TU Wien lecturer affiliation on the PDF). TU Dresden hosts that official
