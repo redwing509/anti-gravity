@@ -78,8 +78,8 @@ became considerably higher and reached 1.9-2.1% at maximum."
 A 2022 open-access review, quoting later work, says Hathaway, Cleveland and Bao
 (2003) found "No weight modifications or gravity-like forces were detected down
 to the 0.001% level," and that Woods et al. (2001) reported an unsuccessful
-attempt, while noting of Podkletnov that, "even though his results have been,
-until now, neither confirmed nor disproved."
+attempt. The same review says of Podkletnov, "even though his results have
+been, until now, neither confirmed nor disproved."
 ([Gallerati, Modanese and Ummarino, Front. Phys. 10:941858](https://www.frontiersin.org/articles/10.3389/fphy.2022.941858/full),
 DOI 10.3389/fphy.2022.941858.) Those replication numbers are secondary: the 2003
 Physica C paper itself was not opened. That is a source-access gap, not
@@ -132,8 +132,8 @@ seen on the sensors although they are mechanically de-coupled."
 ([arXiv:0707.3806v9](https://arxiv.org/pdf/0707.3806v9).)
 
 The same group's later test is a null: "No such anomalies were found within
-three times the noise level of our setup (±5 × 10⁻⁸ rad s⁻¹, formatting
-normalized)."
+three times the noise level of our setup (±5 × 10⁻⁸ rad s⁻¹)."
+(Exponent formatting normalized.)
 ([Tajmar, Supercond. Sci. Technol. 24:125011, 2011](https://doi.org/10.1088/0953-2048/24/12/125011),
 abstract only; checked on the IOP page.)
 
@@ -258,8 +258,9 @@ https://github.com/GRTLCollaboration/GRChombo).
 
 1. Write the falsifier for each claim before any run: EmDrive must beat
    `F/P = 1/c = 3.3 nN/W`; MET must beat the Dresden artefact envelope
-   (resolution under 10 nN, peaks ~100 nN, drift up to ~500 nN), not the
-   resolution figure alone; amplified frame dragging must beat the classical
+   quoted from the Monette thesis in section 1 (resolution under 10 nN,
+   peaks ~100 nN, drift up to ~500 nN), not the resolution figure alone;
+   amplified frame dragging must beat the classical
    prediction for the chosen rotor and sensor geometry, not the LAGEOS-scale
    Earth result.
 2. Meep cavity baseline (section 2, engine 1).
