@@ -1,0 +1,74 @@
+[
+  {
+    "source": {
+      "i": 1,
+      "url": "https://ntrs.nasa.gov/api/citations/20170000277/downloads/20170000277.pdf",
+      "title": "Measurement of Impulsive Thrust from a Closed Radio Frequency Cavity in Vacuum",
+      "why_relevant": "Official NASA Johnson Space Center/Eagleworks report of a tapered RF cavity test campaign in vacuum, including geometry, thrust levels, and a dedicated null-thrust test.",
+      "how_opened": "full text",
+      "quote": "A vacuum test campaign evaluating the impulsive thrust performance of a tapered RF test article excited in the TM212 mode at 1,937 megahertz (MHz) has been completed... thrust data from forward, reverse, and null suggests that the system is consistently performing with a thrust to power ratio of 1.2 ± 0.1 mN/kW. The RF resonance test article is a copper frustum with an inner diameter of 27.9 cm on the big end, inner diameter of 15.9 cm on the small end, and an axial length of 22.9 cm... all vacuum tests were performed at or below 8×10−6 Torr. The results from the null thrust testing show no impulsive element in the collected data, only the thermal signal.",
+      "geometry_or_result": "Copper frustum: big-end ID 27.9 cm, small-end ID 15.9 cm, axial length 22.9 cm; 5.4 cm-thick polyethylene disc, 15.6 cm outer diameter; 13.5 mm loop antenna; TM212 at 1,937 MHz. Vacuum ≤ 8×10−6 Torr; power scans 40/60/80 W; reported thrust 1.2 ± 0.1 mN/kW toward narrow end. Null test: three 80 W vacuum runs showed no impulsive element, only thermal signal."
+    },
+    "verify_file": "/workspace/research-rotation/t1358u/ag-03-emdrive/runs/VERIFY-S01.json",
+    "verdict": "TRUE",
+    "verify": {
+      "url_opened": "https://ntrs.nasa.gov/api/citations/20170000277/downloads/20170000277.pdf",
+      "doi": "",
+      "title": "Measurement of Impulsive Thrust from a Closed Radio Frequency Cavity in Vacuum",
+      "claim": "the recorded quote was verbatim on the opened page",
+      "verdict": "TRUE",
+      "quote": "A vacuum test campaign evaluating the impulsive thrust performance of a tapered RF test article excited in the TM212 mode at 1,937 megahertz (MHz) has been completed... thrust data from forward, reverse, and null suggests that the system is consistently performing with a thrust to power ratio of 1.2 ± 0.1 mN/kW. The RF resonance test article is a copper frustum with an inner diameter of 27.9 cm on the big end, inner diameter of 15.9 cm on the small end, and an axial length of 22.9 cm... all vacuum tests were performed at or below 8×10−6 Torr. The results from the null thrust testing show no impulsive element in the collected data, only the thermal signal.",
+      "how_verified": "Opened the NTRS PDF and the companion full-text .txt and citation record via web_extract; located each quoted segment verbatim: abstract (1,937 MHz / TM212 / 1.2 ± 0.1 mN/kW, matching the citation record's abstract), Section II.B (frustum dimensions), Facilities section (8×10−6 Torr), results section ('no impulsive element... only the thermal signal.', split by figure axis labels in the two-column text layer); the ellipses in the recorded quote mark omitted intervening text present in the document.",
+      "how_opened": "full text",
+      "limitations": "NTRS citation record lists no DOI field (left empty). Linear text extraction of the two-column PDF interleaves figure axis labels, so the final sentence is not contiguous in the extracted text (adjacency across lines 2121 and 2138 of the saved text confirms the sentence). Quotes checked against the paper's full text (.txt) and NTRS citation metadata; no independent re-OCR of the PDF image layer was performed."
+    }
+  },
+  {
+    "source": {
+      "i": 2,
+      "url": "https://link.springer.com/article/10.1007/s12567-021-00385-1",
+      "title": "High-accuracy thrust measurements of the EMDrive and elimination of false-positive effects",
+      "why_relevant": "Peer-reviewed TU Dresden (SpaceDrive project) null test of an EMDrive-like tapered cavity with artifact analysis, published in CEAS Space Journal.",
+      "how_opened": "full text",
+      "quote": "Our cavity is based on the same geometry as the one used by White et al.... It consists of a tapered cone, which was mechanically pressed, with a cylindrical flange and a collar made out of 2 mm-thick copper... We found no thrust values within a wide frequency band including several resonance frequencies and different modes. Our data limit any anomalous thrust to below the force equivalent from classical radiation for a given amount of power... rules out previous test results by at least two orders of magnitude.",
+      "geometry_or_result": "Tapered copper cone on White et al.-type geometry, 2 mm-thick copper with cylindrical flange and collar; matched resonance 1,914 MHz, unloaded Q ≈ 23,000 (same paper's TU Dresden conference PDF, opened full text). Result: null — no anomalous thrust above the classical radiation-pressure (photon thrust) level."
+    },
+    "verify_file": "/workspace/research-rotation/t1358u/ag-03-emdrive/runs/VERIFY-S02.json",
+    "verdict": "TRUE",
+    "verify": {
+      "url_opened": "https://link.springer.com/article/10.1007/s12567-021-00385-1",
+      "doi": "10.1007/s12567-021-00385-1",
+      "title": "High-accuracy thrust measurements of the EMDrive and elimination of false-positive effects",
+      "claim": "the recorded quote was verbatim on the opened page",
+      "verdict": "TRUE",
+      "quote": "Page body, setup section: \"Our cavity is based on the same geometry as the one used by White et al. [[3](/article/10.1007/s12567-021-00385-1#ref-CR3)] to compare with peer-reviewed results. It consists of a tapered cone, which was mechanically pressed, with a cylindrical flange and a collar made out of 2 mm-thick copper, as shown in Fig. [7](/article/10.1007/s12567-021-00385-1#Fig7).\" Abstract: \"We found no thrust values within a wide frequency band including several resonance frequencies and different modes. Our data limit any anomalous thrust to below the force equivalent from classical radiation for a given amount of power.\" and \"...rules out previous test results by at least two orders of magnitude.\"",
+      "how_verified": "Opened the URL with web_extract; abstract loaded inline and full page text saved to /workspace/hermes-box/research-home-t1358u/cache/web/link.springer.com-a8d904d896.md, then searched that saved full text for the cavity-description segments.",
+      "how_opened": "full text",
+      "limitations": "The recorded quote uses ellipses and is not one continuous verbatim string; I verified each segment between ellipses appears verbatim on the page (cavity sentences in the body text; thrust/no-thrust and orders-of-magnitude sentences in the abstract). Reference/figure link markup ([[3]], [7]) appears in the page text where the quote omits it."
+    }
+  },
+  {
+    "source": {
+      "i": 3,
+      "url": "https://ntrs.nasa.gov/citations/20140006052",
+      "title": "Anomalous Thrust Production from an RF Test Device Measured on a Low-Thrust Torsion Pendulum",
+      "why_relevant": "Official NASA NTRS record of the August 2013 Eagleworks campaign reporting ~30–50 µN from an RF cavity at ambient pressure, including a null test article that nevertheless registered thrust.",
+      "how_opened": "abstract only",
+      "quote": "Approximately 30-50 micro-Newtons of thrust were recorded from an electric propulsion test article consisting primarily of a radio frequency (RF) resonant cavity excited at approximately 935 megahertz... within a stainless steel vacuum chamber with the door closed but at ambient atmospheric pressure. Thrust was observed on both test articles, even though one of the test articles was designed with the expectation that it would not produce thrust... referred to as the 'null' test article.",
+      "geometry_or_result": "RF resonant cavity, ≈935 MHz; ambient atmospheric pressure (chamber door closed, not vacuum); ≈30–50 µN thrust. Null-article confound: thrust appeared on the article designed not to produce thrust."
+    },
+    "verify_file": "/workspace/research-rotation/t1358u/ag-03-emdrive/runs/VERIFY-S03.json",
+    "verdict": "TRUE",
+    "verify": {
+      "url_opened": "https://ntrs.nasa.gov/citations/20140006052",
+      "doi": "",
+      "title": "Anomalous Thrust Production from an RF Test Device Measured on a Low-Thrust Torsion Pendulum",
+      "claim": "the recorded quote was verbatim on the opened page",
+      "verdict": "TRUE",
+      "quote": "Approximately 30-50 micro-Newtons of thrust were recorded from an electric propulsion test article consisting primarily of a radio frequency (RF) resonant cavity excited at approximately 935 megahertz ... within a stainless steel vacuum chamber with the door closed but at ambient atmospheric pressure. Thrust was observed on both test articles, even though one of the test articles was designed with the expectation that it would not produce thrust ... referred to as the \"null\" test article.",
+      "how_verified": "Opened the NTRS citation page with web_extract; compared each segment of the recorded quote against the page text. All segments match verbatim; ellipses bridge intervening page text.",
+      "how_opened": "abstract only",
+      "limitations": "NTRS record lists Document Type: Abstract; only abstract text is on the page, so full-paper text beyond the abstract could not be checked. No DOI is listed on the page (report number JSC-CN-30345 only)."
+    }
+  }
+]

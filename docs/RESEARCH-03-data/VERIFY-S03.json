@@ -1,0 +1,11 @@
+{
+  "url_opened": "https://ntrs.nasa.gov/citations/20140006052",
+  "doi": "",
+  "title": "Anomalous Thrust Production from an RF Test Device Measured on a Low-Thrust Torsion Pendulum",
+  "claim": "the recorded quote was verbatim on the opened page",
+  "verdict": "TRUE",
+  "quote": "Approximately 30-50 micro-Newtons of thrust were recorded from an electric propulsion test article consisting primarily of a radio frequency (RF) resonant cavity excited at approximately 935 megahertz ... within a stainless steel vacuum chamber with the door closed but at ambient atmospheric pressure. Thrust was observed on both test articles, even though one of the test articles was designed with the expectation that it would not produce thrust ... referred to as the \"null\" test article.",
+  "how_verified": "Opened the NTRS citation page with web_extract; compared each segment of the recorded quote against the page text. All segments match verbatim; ellipses bridge intervening page text.",
+  "how_opened": "abstract only",
+  "limitations": "NTRS record lists Document Type: Abstract; only abstract text is on the page, so full-paper text beyond the abstract could not be checked. No DOI is listed on the page (report number JSC-CN-30345 only)."
+}

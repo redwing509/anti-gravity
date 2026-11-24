@@ -1,0 +1,11 @@
+{
+  "url_opened": "https://link.springer.com/article/10.1007/s12567-021-00385-1",
+  "doi": "10.1007/s12567-021-00385-1",
+  "title": "High-accuracy thrust measurements of the EMDrive and elimination of false-positive effects",
+  "claim": "the recorded quote was verbatim on the opened page",
+  "verdict": "TRUE",
+  "quote": "Page body, setup section: \"Our cavity is based on the same geometry as the one used by White et al. [[3](/article/10.1007/s12567-021-00385-1#ref-CR3)] to compare with peer-reviewed results. It consists of a tapered cone, which was mechanically pressed, with a cylindrical flange and a collar made out of 2 mm-thick copper, as shown in Fig. [7](/article/10.1007/s12567-021-00385-1#Fig7).\" Abstract: \"We found no thrust values within a wide frequency band including several resonance frequencies and different modes. Our data limit any anomalous thrust to below the force equivalent from classical radiation for a given amount of power.\" and \"...rules out previous test results by at least two orders of magnitude.\"",
+  "how_verified": "Opened the URL with web_extract; abstract loaded inline and full page text saved to /workspace/hermes-box/research-home-t1358u/cache/web/link.springer.com-a8d904d896.md, then searched that saved full text for the cavity-description segments.",
+  "how_opened": "full text",
+  "limitations": "The recorded quote uses ellipses and is not one continuous verbatim string; I verified each segment between ellipses appears verbatim on the page (cavity sentences in the body text; thrust/no-thrust and orders-of-magnitude sentences in the abstract). Reference/figure link markup ([[3]], [7]) appears in the page text where the quote omits it."
+}
