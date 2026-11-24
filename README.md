@@ -21,6 +21,7 @@ A measured ion-wind force, a thermal artifact, or a frame-dragging effect predic
 
 - `RULES.md`: standing project rules (model-only work, free compute, review, and citation honesty).
 - `docs/ROADMAP.md`: planned research sequence.
+- `docs/RESEARCH-03.md`: first bite-size literature slice of published EmDrive / closed microwave-cavity tests (research docs only; not a model result).
 - Later write-ups will appear under `docs/` through pull requests.
 
 ## Compute and results

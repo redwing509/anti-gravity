@@ -1,0 +1,11 @@
+{
+  "url_opened": "https://ntrs.nasa.gov/api/citations/20170000277/downloads/20170000277.pdf",
+  "doi": "",
+  "title": "Measurement of Impulsive Thrust from a Closed Radio Frequency Cavity in Vacuum",
+  "claim": "the recorded quote was verbatim on the opened page",
+  "verdict": "TRUE",
+  "quote": "A vacuum test campaign evaluating the impulsive thrust performance of a tapered RF test article excited in the TM212 mode at 1,937 megahertz (MHz) has been completed... thrust data from forward, reverse, and null suggests that the system is consistently performing with a thrust to power ratio of 1.2 ± 0.1 mN/kW. The RF resonance test article is a copper frustum with an inner diameter of 27.9 cm on the big end, inner diameter of 15.9 cm on the small end, and an axial length of 22.9 cm... all vacuum tests were performed at or below 8×10−6 Torr. The results from the null thrust testing show no impulsive element in the collected data, only the thermal signal.",
+  "how_verified": "Opened the NTRS PDF and the companion full-text .txt and citation record via web_extract; located each quoted segment verbatim: abstract (1,937 MHz / TM212 / 1.2 ± 0.1 mN/kW, matching the citation record's abstract), Section II.B (frustum dimensions), Facilities section (8×10−6 Torr), results section ('no impulsive element... only the thermal signal.', split by figure axis labels in the two-column text layer); the ellipses in the recorded quote mark omitted intervening text present in the document.",
+  "how_opened": "full text",
+  "limitations": "NTRS citation record lists no DOI field (left empty). Linear text extraction of the two-column PDF interleaves figure axis labels, so the final sentence is not contiguous in the extracted text (adjacency across lines 2121 and 2138 of the saved text confirms the sentence). Quotes checked against the paper's full text (.txt) and NTRS citation metadata; no independent re-OCR of the PDF image layer was performed."
+}

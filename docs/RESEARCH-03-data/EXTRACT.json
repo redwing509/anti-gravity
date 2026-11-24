@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "claim_or_test": "Anti-Gravity RESEARCH-03 — EmDrive / closed microwave-cavity published tests (first bite-size literature slice, research docs only)",
+      "url": "https://ntrs.nasa.gov/api/citations/20170000277/downloads/20170000277.pdf",
+      "title": "Measurement of Impulsive Thrust from a Closed Radio Frequency Cavity in Vacuum",
+      "what_was_measured": "Impulsive thrust performance of a tapered RF test article excited in the TM212 mode at 1,937 MHz; thrust-to-power ratio.",
+      "population_or_system": "Copper frustum: big-end inner diameter 27.9 cm, small-end inner diameter 15.9 cm, axial length 22.9 cm; vacuum at or below 8×10−6 Torr; power scans 40/60/80 W; thrust toward narrow end.",
+      "measured_result_quote": "A vacuum test campaign evaluating the impulsive thrust performance of a tapered RF test article excited in the TM212 mode at 1,937 megahertz (MHz) has been completed... thrust data from forward, reverse, and null suggests that the system is consistently performing with a thrust to power ratio of 1.2 ± 0.1 mN/kW. The RF resonance test article is a copper frustum with an inner diameter of 27.9 cm on the big end, inner diameter of 15.9 cm on the small end, and an axial length of 22.9 cm... all vacuum tests were performed at or below 8×10−6 Torr.",
+      "how_opened": "full text",
+      "negatives_or_limits": "The results from the null thrust testing show no impulsive element in the collected data, only the thermal signal (three 80 W vacuum runs)."
+    },
+    {
+      "claim_or_test": "Anti-Gravity RESEARCH-03 — EmDrive / closed microwave-cavity published tests (first bite-size literature slice, research docs only)",
+      "url": "https://link.springer.com/article/10.1007/s12567-021-00385-1",
+      "title": "High-accuracy thrust measurements of the EMDrive and elimination of false-positive effects",
+      "what_was_measured": "Thrust values within a wide frequency band including several resonance frequencies and different modes; anomalous thrust limited to below the force equivalent from classical radiation for a given amount of power.",
+      "population_or_system": "Tapered cone cavity on White et al.-type geometry, mechanically pressed, with cylindrical flange and collar of 2 mm-thick copper; matched resonance 1,914 MHz; unloaded Q ≈ 23,000.",
+      "measured_result_quote": "Our cavity is based on the same geometry as the one used by White et al.... It consists of a tapered cone, which was mechanically pressed, with a cylindrical flange and a collar made out of 2 mm-thick copper... We found no thrust values within a wide frequency band including several resonance frequencies and different modes. Our data limit any anomalous thrust to below the force equivalent from classical radiation for a given amount of power... rules out previous test results by at least two orders of magnitude.",
+      "how_opened": "full text",
+      "negatives_or_limits": "No anomalous thrust above the classical radiation-pressure (photon thrust) level; rules out previous test results by at least two orders of magnitude."
+    },
+    {
+      "claim_or_test": "Anti-Gravity RESEARCH-03 — EmDrive / closed microwave-cavity published tests (first bite-size literature slice, research docs only)",
+      "url": "https://ntrs.nasa.gov/citations/20140006052",
+      "title": "Anomalous Thrust Production from an RF Test Device Measured on a Low-Thrust Torsion Pendulum",
+      "what_was_measured": "Thrust from an electric propulsion test article consisting primarily of a radio frequency (RF) resonant cavity excited at approximately 935 MHz.",
+      "population_or_system": "RF resonant cavity ≈ 935 MHz; stainless steel vacuum chamber with the door closed but at ambient atmospheric pressure.",
+      "measured_result_quote": "Approximately 30-50 micro-Newtons of thrust were recorded from an electric propulsion test article consisting primarily of a radio frequency (RF) resonant cavity excited at approximately 935 megahertz... within a stainless steel vacuum chamber with the door closed but at ambient atmospheric pressure.",
+      "how_opened": "abstract only",
+      "negatives_or_limits": "Thrust was observed on both test articles, even though one of the test articles was designed with the expectation that it would not produce thrust... referred to as the 'null' test article."
+    }
+  ],
+  "notes": "All three sources carry verdict TRUE in VERIFIED.json; no new sources added. Entry 2 geometry/Q figures cite the same paper's TU Dresden conference PDF (opened full text) per the source record; the opened URL is the Springer page. Entry 3 is abstract only (NTRS Document Type: Abstract; report number JSC-CN-30345, no DOI); full paper beyond the abstract was not checked. Quotes are verbatim from the opened records, with ellipses marking omitted intervening text as recorded. No propulsion breakthrough or new gravitational force is claimed or implied."
+}
