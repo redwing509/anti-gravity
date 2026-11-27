@@ -1,0 +1,11 @@
+{
+  "url_opened": "https://nasa.gov/wp-content/uploads/2018/03/niac_2018_phii_woodward_macheffects_2_tagged.pdf",
+  "doi": "",
+  "title": "NIAC Phase II Final Report - Mach Effects for In-Space Propulsion: Interstellar Mission",
+  "claim": "the recorded quote was verbatim on the opened page",
+  "verdict": "FALSE",
+  "quote": "Page text, Section 1 Executive Summary: 'These devices produced on the order of 1µN of force. These early devices are discussed in the introduction, Section 2.' Also on the page: 'At this stage we were seeing forces of order 10’s of microNewtons.' and 'With this free-free motion of the device, a true in-space configuration, we are regularly seeing 100 µN or so.'",
+  "how_verified": "Opened the NASA PDF URL with web_extract; the full tagged-PDF text was retrieved and the three recorded quoted passages were compared word-for-word against the page.",
+  "how_opened": "full text",
+  "limitations": "Machine text extraction of a tagged PDF; typography may differ from visual print (page shows curly apostrophe in '10’s' vs. recorded straight '10's', and '1µN'); only the Executive Summary passages relevant to the recorded quote were checked word-for-word."
+}

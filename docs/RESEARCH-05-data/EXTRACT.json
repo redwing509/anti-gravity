@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "claim_or_test": "Anti-Gravity RESEARCH-05 — Mach-effect thruster published tests and null/artifact results (first bite-size literature slice, research docs only)",
+      "url": "https://arxiv.org/abs/1301.6178",
+      "title": "Experimental Null test of a Mach Effect Thruster",
+      "what_was_measured": "Mach-effect thruster net thrust and its elimination in a null test: thrust removal with two heavy masses at either end of the stack and a central mounting bracket.",
+      "population_or_system": "Mach Effect Thruster stack: two heavy masses at either end of the stack with a central mounting bracket.",
+      "measured_result_quote": "Then we show how this thrust can be eliminated by having two heavy masses at either end of the stack with a central mounting bracket... We find the thrust does indeed disappear in the experiment, as predicted.",
+      "how_opened": "abstract only",
+      "negatives_or_limits": "Null result: thrust disappears in the experiment as predicted (vibration/systematic check). The full-text Sec. 2.2 thrust figure (~1.5 µN) was not verified; only the abstract page was opened."
+    },
+    {
+      "claim_or_test": "Anti-Gravity RESEARCH-05 — Mach-effect thruster published tests and null/artifact results (first bite-size literature slice, research docs only)",
+      "url": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/ExperimentalInvestigationofMETsonTorsionBalances_Proof.pdf?lang=en",
+      "title": "Experimental Investigation of Mach-Effect Thrusters on Torsion Balances",
+      "what_was_measured": "Forces from Mach-Effect Thrusters (MEGA drive) on torsion balances, in nN/W, including orientations that should produce zero thrust.",
+      "population_or_system": "Mach-Effect Thrusters / MEGA drive on torsion balances, TU Dresden replication campaign (Monette, Kössling, Tajmar).",
+      "measured_result_quote": "Abstract: \"It is concluded that the observed effect is a result of coupled vibrations on the torsion balance.\" Sec. 6/Conclusion: \"the forces are much lower than predicted (3 to 30 nN/W), and are present in thruster orientations that should not result in thrust... the effects observed by Woodward using the MEGA drive on a torsion balance can be explained by thermal and vibrational artefacts using Newtonian mechanics.\"",
+      "how_opened": "full text",
+      "negatives_or_limits": "No confirmed uniaxial thrust; observed forces 3–30 nN/W, orders below claimed µN-level forces, present in orientations that should yield zero thrust; attributed to thermal and vibrational artefacts. Caveats: PDF text truncated mid-Sec. 6; part of the quote appears in Section 7 Conclusion, not Sec. 6; no DOI on the proof PDF."
+    },
+    {
+      "claim_or_test": "Anti-Gravity RESEARCH-05 — Mach-effect thruster published tests and null/artifact results (first bite-size literature slice, research docs only)",
+      "url": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/IAC-The-SpaceDrive-Project-Thrust-Balance-Development-and-New-Measurements-of-the-Mach-Effect-and-EMDrive-Thrusters.pdf?lang=en",
+      "title": "The SpaceDrive Project - Thrust Balance Development and New Measurements of the Mach-Effect and EMDrive Thrusters",
+      "what_was_measured": "Thrust-balance test signals for Mach-Effect and EM Drive thrusters; whether signals indicate real thrust.",
+      "population_or_system": "Mach-Effect and EM Drive thrusters on thrust balances, TU Dresden SpaceDrive project (IAC-18, Bremen 2018).",
+      "measured_result_quote": "tests \"were performed and indicate thermal drifts instead of real thrusts. This needs to be further investigated.\"",
+      "how_opened": "full text",
+      "negatives_or_limits": "No real thrust observed; measured signals attributed to non-linear thermal drifts rather than thrust. Caveats: no DOI printed on the document; PDF text extraction is page-fragmented with ellipsis gaps."
+    }
+  ],
+  "notes": "Only verdict TRUE sources were used, per instructions. S03 (NASA NIAC Phase II Final Report - Mach Effects for In-Space Propulsion: Interstellar Mission) had verify verdict FALSE and was excluded; no new sources were added. For S01 only the abstract was opened, so its full-text ~1.5 µN thrust figure (Sec. 2.2) is not quote-verified. Entry titles are as printed on the opened pages."
+}

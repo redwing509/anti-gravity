@@ -1,0 +1,74 @@
+[
+  {
+    "source": {
+      "i": 1,
+      "url": "https://arxiv.org/abs/1301.6178",
+      "title": "Experimental Null Test of a Mach Effect Thruster",
+      "why_relevant": "CSUF authors (Fearn & Woodward) report both a positive thrust and a designed null test in which the thrust disappears.",
+      "how_opened": "full text",
+      "quote": "Abstract: \"Then we show how this thrust can be eliminated by having two heavy masses at either end of the stack with a central mounting bracket... We find the thrust does indeed disappear in the experiment, as predicted.\" Full text (Sec. 2.2): \"Here we show a clear thrust of approximately 1.5 µN.\"",
+      "geometry_or_result": "Measured thrust approximately 1.5 µN in thruster mode (no uncertainty stated); null result: net thrust disappears with equal masses at both ends, as predicted (vibration/systematic check)."
+    },
+    "verify_file": "/workspace/research-rotation/t1358u/ag-05-mach-effect/runs/VERIFY-S01.json",
+    "verdict": "TRUE",
+    "verify": {
+      "url_opened": "https://arxiv.org/abs/1301.6178",
+      "doi": "10.48550/arXiv.1301.6178",
+      "title": "Experimental Null test of a Mach Effect Thruster",
+      "claim": "the recorded quote was verbatim on the opened page",
+      "verdict": "TRUE",
+      "quote": "Abstract: \"Then we show how this thrust can be eliminated by having two heavy masses at either end of the stack with a central mounting bracket... We find the thrust does indeed disappear in the experiment, as predicted.\"",
+      "how_verified": "Opened https://arxiv.org/abs/1301.6178 with web_extract; compared recorded quote against the page's Abstract section.",
+      "how_opened": "abstract only",
+      "limitations": "Only the abstract page was opened (single-URL rule); the Sec. 2.2 full-text quote (\"Here we show a clear thrust of approximately 1.5 µN.\") could not be verified because the full text/PDF was not retrieved. Title capitalization on page is \"Null test\" (lowercase t), not \"Null Test\" as recorded earlier."
+    }
+  },
+  {
+    "source": {
+      "i": 2,
+      "url": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/ExperimentalInvestigationofMETsonTorsionBalances_Proof.pdf?lang=en",
+      "title": "Experimental Investigation of Mach-Effect Thrusters on Torsion Balances",
+      "why_relevant": "TU Dresden (Monette, Kössling, Tajmar) replication campaign reporting artifact-level forces and a conventional explanation for Woodward's signals.",
+      "how_opened": "full text",
+      "quote": "Abstract: \"It is concluded that the observed effect is a result of coupled vibrations on the torsion balance.\" Sec. 6: \"the forces are much lower than predicted (3 to 30 nN/W), and are present in thruster orientations that should not result in thrust... the effects observed by Woodward using the MEGA drive on a torsion balance can be explained by thermal and vibrational artefacts using Newtonian mechanics.\"",
+      "geometry_or_result": "No confirmed uniaxial thrust; observed forces 3–30 nN/W, orders below claimed µN-level forces, appearing in orientations that should yield zero thrust; attributed to thermal and vibrational artefacts."
+    },
+    "verify_file": "/workspace/research-rotation/t1358u/ag-05-mach-effect/runs/VERIFY-S02.json",
+    "verdict": "TRUE",
+    "verify": {
+      "url_opened": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/ExperimentalInvestigationofMETsonTorsionBalances_Proof.pdf?lang=en",
+      "doi": "",
+      "title": "Experimental Investigation of Mach-Effect Thrusters on Torsion Balances",
+      "claim": "the recorded quote was verbatim on the opened page",
+      "verdict": "TRUE",
+      "quote": "Abstract: \"It is concluded that the observed effect is a result of coupled vibrations on the torsion balance.\" Sec. 6: \"the forces are much lower than predicted (3 to 30 nN/W), and are present in thruster orientations that should not result in thrust... the effects observed by Woodward using the MEGA drive on a torsion balance can be explained by thermal and vibrational artefacts using Newtonian mechanics.\"",
+      "how_verified": "web_extract opened the PDF URL; abstract quote verified verbatim on lines 29-30 of extracted text; Sec. 6 first sentence verified verbatim on lines 575-576; Sec. 6/Conclusion second sentence confirmed via web search result snippet from the same tu-dresden.de document (Section 7 Conclusion)",
+      "how_opened": "full text",
+      "limitations": "web_extract truncated the PDF at ~50K characters mid-Sec.6; the second sentence of the recorded Sec.6 quote actually appears in Section 7 (Conclusion) of the document, not Sec.6; no DOI visible on the proof PDF page"
+    }
+  },
+  {
+    "source": {
+      "i": 4,
+      "url": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/IAC-The-SpaceDrive-Project-Thrust-Balance-Development-and-New-Measurements-of-the-Mach-Effect-and-EMDrive-Thrusters.pdf?lang=en",
+      "title": "The SpaceDrive Project - Thrust Balance Development and New Measurements of the Mach-Effect and EMDrive Thrusters",
+      "why_relevant": "TU Dresden (Kössling et al., IAC-18, Bremen 2018) test campaign reporting no real Mach-effect thrust and attributing signals to thermal drifts.",
+      "how_opened": "full text",
+      "quote": "Results discussion: tests \"were performed and indicate thermal drifts instead of real thrusts. This needs to be further investigated.\"",
+      "geometry_or_result": "No real thrust observed; measured signals attributed to non-linear thermal drifts rather than thrust."
+    },
+    "verify_file": "/workspace/research-rotation/t1358u/ag-05-mach-effect/runs/VERIFY-S04.json",
+    "verdict": "TRUE",
+    "verify": {
+      "url_opened": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/IAC-The-SpaceDrive-Project-Thrust-Balance-Development-and-New-Measurements-of-the-Mach-Effect-and-EMDrive-Thrusters.pdf?lang=en",
+      "doi": "",
+      "title": "The SpaceDrive Project - Thrust Balance Development and New Measurements of the Mach-Effect and EMDrive Thrusters",
+      "claim": "the recorded quote was verbatim on the opened page",
+      "verdict": "TRUE",
+      "quote": "were performed and indicate thermal drifts instead of real thrusts. This needs to be further investigated.",
+      "how_verified": "web_extract fetched the URL; compared the recorded quote against the extracted full text; the quoted sentence matches verbatim on page 8 of 16 ('... were performed and indicate thermal drifts instead of real thrusts. This needs to be further investigated.'), preceded in context by 'tests' outside the quotation",
+      "how_opened": "full text",
+      "limitations": "No DOI is printed on this document (the string 'doi:10.4236/jmp.2015.613192' appearing in the text is a cited reference, not this paper's DOI); PDF text extraction was page-fragmented with ellipsis placeholders between pages, so text within gaps could not be checked, but the target quote itself was located verbatim."
+    }
+  }
+]

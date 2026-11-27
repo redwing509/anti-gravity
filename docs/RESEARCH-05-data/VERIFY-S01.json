@@ -1,0 +1,11 @@
+{
+  "url_opened": "https://arxiv.org/abs/1301.6178",
+  "doi": "10.48550/arXiv.1301.6178",
+  "title": "Experimental Null test of a Mach Effect Thruster",
+  "claim": "the recorded quote was verbatim on the opened page",
+  "verdict": "TRUE",
+  "quote": "Abstract: \"Then we show how this thrust can be eliminated by having two heavy masses at either end of the stack with a central mounting bracket... We find the thrust does indeed disappear in the experiment, as predicted.\"",
+  "how_verified": "Opened https://arxiv.org/abs/1301.6178 with web_extract; compared recorded quote against the page's Abstract section.",
+  "how_opened": "abstract only",
+  "limitations": "Only the abstract page was opened (single-URL rule); the Sec. 2.2 full-text quote (\"Here we show a clear thrust of approximately 1.5 µN.\") could not be verified because the full text/PDF was not retrieved. Title capitalization on page is \"Null test\" (lowercase t), not \"Null Test\" as recorded earlier."
+}
