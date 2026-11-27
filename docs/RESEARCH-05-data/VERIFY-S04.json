@@ -1,0 +1,11 @@
+{
+  "url_opened": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/IAC-The-SpaceDrive-Project-Thrust-Balance-Development-and-New-Measurements-of-the-Mach-Effect-and-EMDrive-Thrusters.pdf?lang=en",
+  "doi": "",
+  "title": "The SpaceDrive Project - Thrust Balance Development and New Measurements of the Mach-Effect and EMDrive Thrusters",
+  "claim": "the recorded quote was verbatim on the opened page",
+  "verdict": "TRUE",
+  "quote": "were performed and indicate thermal drifts instead of real thrusts. This needs to be further investigated.",
+  "how_verified": "web_extract fetched the URL; compared the recorded quote against the extracted full text; the quoted sentence matches verbatim on page 8 of 16 ('... were performed and indicate thermal drifts instead of real thrusts. This needs to be further investigated.'), preceded in context by 'tests' outside the quotation",
+  "how_opened": "full text",
+  "limitations": "No DOI is printed on this document (the string 'doi:10.4236/jmp.2015.613192' appearing in the text is a cited reference, not this paper's DOI); PDF text extraction was page-fragmented with ellipsis placeholders between pages, so text within gaps could not be checked, but the target quote itself was located verbatim."
+}

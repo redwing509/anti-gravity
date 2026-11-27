@@ -1,0 +1,11 @@
+{
+  "url_opened": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/ExperimentalInvestigationofMETsonTorsionBalances_Proof.pdf?lang=en",
+  "doi": "",
+  "title": "Experimental Investigation of Mach-Effect Thrusters on Torsion Balances",
+  "claim": "the recorded quote was verbatim on the opened page",
+  "verdict": "TRUE",
+  "quote": "Abstract: \"It is concluded that the observed effect is a result of coupled vibrations on the torsion balance.\" Sec. 6: \"the forces are much lower than predicted (3 to 30 nN/W), and are present in thruster orientations that should not result in thrust... the effects observed by Woodward using the MEGA drive on a torsion balance can be explained by thermal and vibrational artefacts using Newtonian mechanics.\"",
+  "how_verified": "web_extract opened the PDF URL; abstract quote verified verbatim on lines 29-30 of extracted text; Sec. 6 first sentence verified verbatim on lines 575-576; Sec. 6/Conclusion second sentence confirmed via web search result snippet from the same tu-dresden.de document (Section 7 Conclusion)",
+  "how_opened": "full text",
+  "limitations": "web_extract truncated the PDF at ~50K characters mid-Sec.6; the second sentence of the recorded Sec.6 quote actually appears in Section 7 (Conclusion) of the document, not Sec.6; no DOI visible on the proof PDF page"
+}

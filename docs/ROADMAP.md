@@ -38,3 +38,5 @@ Mach-effect, Podkletnov, and gravitomagnetic claims are in scope only when a pub
 - No paid compute.
 - No invented citations and no pirated papers.
 - No hardware or “breakthrough” claim from simulation alone.
+
+`docs/RESEARCH-05.md` is a first-slice literature register for the Woodward Mach-effect thruster (Phase 2 scope). Checked sources support reported nulls and balance artifacts (coupled vibrations), not a new force. It stays in the literature register: no free-solver model is planned for it until a published geometry with stated physics exists. Next research slice: a later Phase 2 item after RESEARCH-05.
